@@ -35,7 +35,7 @@ body{
 
 .dark{
 	padding:15px;
-	background: #35424a;
+	background: var(--color-primary);
 	color:#ffffff;
 	margin-top:10px;
 	margin-bottom: 10px;
@@ -194,7 +194,8 @@ aside#sidebar{
 	margin-top:10px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea{
+.quote input, .quote textarea{
+	display: block;
 	width:90%;
 	padding:5px;
 }
