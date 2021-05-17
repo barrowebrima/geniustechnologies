@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
 
 :root {
-	--color-primary: #01092d;
-	--color-accent: #00F;
+	--color-primary: #0034a9;
+	--color-accent: #00e7ff;
 }
 
 
@@ -28,7 +28,7 @@ body{
 
 .button_1{
 	height:38px;
-	background:#e8491d;
+	background:var(--color-accent);
 	border:0;
 	padding-left:20px;
 	padding-right:20px;
@@ -41,6 +41,24 @@ body{
 	color:#ffffff;
 	margin-top:10px;
 	margin-bottom: 10px;
+	font-size: 16px;
+	border-radius: 0.5rem;
+
+}
+.dark input{
+	border-radius: 0.5rem;
+
+}
+
+	.thumbnail{
+		height: 300px;
+		overflow: hidden;
+
+		
+        
+}
+.thumbnail img{
+	height: 100%;
 }
 /*Header*/
 header{
@@ -48,7 +66,7 @@ header{
 	color:#ffffff;
 	padding-top:30px;
 	min-height:70px;
-	border-bottom:#e8491d 3px solid;
+	border-bottom:var(--color-accent) 3px solid;
 }
 
 header a{
@@ -78,7 +96,7 @@ header nav{
 	margin-top: 10px;
 }
 header .highlight, header .current a{
-	color:#e8491d;
+	color:var(--color-accent);
 	font-weight:bold;
 }
 
@@ -166,15 +184,14 @@ flex-wrap: wrap;
 
 .box-icon {
 	width: 100px;
-	color: #e8491d;
+	color: var(--color-accent);
 }
 #boxes .boxpro{
 	width: 33%;
-	color: #e8491d;
 }
 #boxes .boxpro img{
 	width: 100%;
-	color: #e8491d;
+	color: var(--color-accent);
 }
 
 #boxes .box{
@@ -194,12 +211,6 @@ aside#sidebar{
 	float:right;
 	width:30%;
 	margin-top:10px;
-}
-
-.quote input, .quote textarea{
-	display: block;
-	width:90%;
-	padding:5px;
 }
 
 /*main-col*/
@@ -228,7 +239,7 @@ footer{
 .social{
 	width:30px;
 	height:30px;
-	color:#e8491d;
+	color:var(--color-accent);
 }
 
 /*media queries*/
