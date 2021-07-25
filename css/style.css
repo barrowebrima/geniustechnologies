@@ -187,6 +187,35 @@ flex-wrap: wrap;
 #boxes .box img{
 	width:90px;
 }
+#boxes .boxpro a{
+	text-decoration: none;
+	color:#e8491d;
+
+
+}
+.master{
+	display: flex;
+}
+/*product thumbnail*/
+.product-thumbnail{
+	overflow: hidden;
+	height: 250px;
+	position: relative;
+}
+
+.product-thumbnail img{
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+
+}
+
+
 
 /*sidebar*/
 
